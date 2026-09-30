@@ -1,7 +1,6 @@
 name: Msg
 version: ${project.version}
 main: com.metox.msg.MsgPlugin
-website: https://discord.gg/forges
 api-version: 1.13
 author: chizzar-dev
 description: Ozel mesajlasma, cevap ve action bar bildirimi. Coslant.
