@@ -1,0 +1,27 @@
+# Msg - chizzar-dev
+# %sender% = gonderen, %target% = alici, %message% = mesaj
+
+console-name: "Konsol"
+
+format:
+  sender: "&7Ben &8» &e%target%&8: &f%message%"
+  receiver: "&e%sender% &8» &7Ben&8: &f%message%"
+
+# alici mesaj alinca hotbar ustunde kucuk bildirim
+actionbar:
+  enabled: true
+  message: "&e» &f%sender% &7sana bir mesaj gonderdi &e«"
+
+# alici mesaj alinca ses. bulunamazsa sessizce gecilir.
+sound:
+  enabled: true
+  name: "ORB_PICKUP"
+
+messages:
+  players-only: "&cBu komutu sadece oyuncular kullanabilir."
+  no-permission: "&cBunun icin yetkin yok."
+  player-not-found: "&cOyuncu bulunamadi ya da cevrimdisi."
+  self: "&cKendine mesaj gonderemezsin."
+  usage-msg: "&7/msg <oyuncu> <mesaj>"
+  usage-reply: "&7/r <mesaj>"
+  no-reply: "&cCevap verecek kimse yok."

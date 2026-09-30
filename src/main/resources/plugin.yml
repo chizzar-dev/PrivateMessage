@@ -1,0 +1,22 @@
+name: Msg
+version: ${project.version}
+main: com.metox.msg.MsgPlugin
+website: https://discord.gg/forges
+api-version: 1.13
+author: chizzar-dev
+description: Ozel mesajlasma, cevap ve action bar bildirimi. Coslant.
+
+commands:
+  msg:
+    description: Bir oyuncuya ozel mesaj gonder
+    usage: /msg <oyuncu> <mesaj>
+    aliases: [w, tell, pm, mesaj]
+  reply:
+    description: Son mesajlastigin kisiye cevap ver
+    usage: /reply <mesaj>
+    aliases: [r, cevapla]
+
+permissions:
+  msg.use:
+    description: Ozel mesaj gonderebilir
+    default: true
